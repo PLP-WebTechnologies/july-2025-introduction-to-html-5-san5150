@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A semantic, accessible, and SEO-friendly HTML5 example page without CSS or JavaScript.">
+  <title>My Accessible SEO-Friendly Web Page</title>
+</head>
+<body>
+  <!-- Skip link (works without CSS; it will appear inline) -->
+  <a href="#maincontent">Skip to main content</a>
+
+  <header>
+    <h1>My Awesome Website</h1>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="maincontent">
+    <article aria-labelledby="about">
+      <header>
+        <h2 id="about">About Us</h2>
+      </header>
+      <p>Welcome! We focus on inclusive, accessible experiences that work for everyone.</p>
+    </article>
+
+    <article aria-labelledby="services">
+      <header>
+        <h2 id="services">Our Services</h2>
+      </header>
+      <section aria-labelledby="dev">
+        <h3 id="dev">Web Development</h3>
+        <p>Responsive, accessible websites built with best practices and performance in mind.</p>
+      </section>
+      <section aria-labelledby="consult">
+        <h3 id="consult">Consulting</h3>
+        <p>Guidance on usability, accessibility, and SEO to help your product grow.</p>
+      </section>
+    </article>
+
+    <article aria-labelledby="contact">
+      <header>
+        <h2 id="contact">Contact Us</h2>
+      </header>
+      <p>Questions? Email <a href="mailto:info@example.com">info@exampl
 
